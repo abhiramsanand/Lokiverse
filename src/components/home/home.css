@@ -1,0 +1,53 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Rubik Wet Paint', sans-serif; 
+}
+
+.homepage {
+  height: 100vh;
+  background-image: url('../../assets/lokiversebg.png'); /* Add your image URL here */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 12rem;
+  margin-right: 70rem;
+}
+
+.links a {
+  margin-right: 4rem;
+  color: #c69519;
+  text-decoration: none;
+  position: relative;
+  border: 1px solid #c69519; 
+  padding: 0.5rem 1rem; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.links a:hover {
+  background-color: yellow; 
+  color: black;
+}
+
+.links a:last-child {
+  margin-right: 0;
+}
+
+.loki {
+  color: #c69519;
+  margin-right: -35rem;
+  font-size: 4rem;
+  letter-spacing: 1.8rem;
+}
