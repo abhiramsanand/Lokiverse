@@ -13,7 +13,7 @@ export default function Hero() {
           Loading...
         </div>
       ) : null}
-      <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-dark-1003 relative">
+      <div className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-dark-1003 relative">
         <div className='md:w-2/6 md:p-4 border-4 border-dark-1002'>
           <img data-aos="flip-right" data-aos-duration="1500" data-aos-offset="200" src={hero} alt="hero" onLoad={() => setLoaded(false)} />
         </div>
