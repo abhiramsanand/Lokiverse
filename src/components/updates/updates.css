@@ -1,0 +1,79 @@
+.updates {
+    padding: 5rem;
+    padding-right: 10rem;
+    background-image: url('../../assets/updates.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: flex-start;
+}
+
+.intro-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 45rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .intro {
+        padding: 0;
+    }
+
+    .intro-heading {
+        margin-left: 0; 
+    }
+
+    .intro-heading::after {
+        left: 145px;
+        right: 0px;
+    }
+
+    .intro-text {
+        margin-left: 0; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 0;
+    }
+
+    .intro-heading {
+        margin-left: 0; 
+    }
+
+    .intro-heading::after {
+        left: 145px;
+        right: 0px;
+    }
+
+    .intro-text {
+        margin-left: 0;  
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro {
+        padding: 0;
+    }
+
+    .intro-heading {
+        margin-left: 0; 
+    }
+
+    .intro-heading::after {
+        left: 145px;
+        right: 0px;
+    }
+
+    .intro-text {
+        margin-left: 0; 
+    }
+}
