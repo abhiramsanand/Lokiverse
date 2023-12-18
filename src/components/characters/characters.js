@@ -1,4 +1,3 @@
-// CharactersPage.js
 import React from 'react';
 
 const Characters = () => {

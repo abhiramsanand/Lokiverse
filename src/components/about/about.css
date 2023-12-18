@@ -1,0 +1,37 @@
+.lokesh {
+  background-image: url('../../assets/lokesh.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem; 
+  border-radius: 0.5rem; 
+}
+
+.lokitext {
+  letter-spacing: 1rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.link a {
+  color: #880808;
+  text-decoration: none;
+  position: relative;
+  border: 1px solid #880808;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 2rem;
+}
+
+.link a:hover {
+  background-color: #880808;
+  color: black;
+}
