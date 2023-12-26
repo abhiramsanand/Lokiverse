@@ -1,0 +1,81 @@
+.gallery {
+    height: 100vh;
+    background-image: url('../../assets/gallerybg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery2 {
+    padding: 5rem;
+    padding-right: 10rem;
+    background-color: #ff0000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: flex-start;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.links a {
+    color: #880808;
+    text-decoration: none;
+    position: relative;
+    border: 1px solid #880808;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 2rem;
+}
+
+.links a:hover {
+    background-color: #880808;
+    color: black;
+}
+
+.lifecontainer-box {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    margin: 5rem 0rem;
+    border-radius: 15px 0px 15px 0px;
+    padding: 20px;
+    border: 3px solid #05274b;
+}
+
+.image-container {
+    position: relative;
+}
+
+.course-image {
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.gallery2 .lifecontainer-box {
+    display: inline-block;
+}
+
+#songs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  audio {
+    width: 100%;
+    max-width: 400px; 
+    margin-top: 10px;
+  }
