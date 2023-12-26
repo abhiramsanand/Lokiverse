@@ -22,13 +22,13 @@
     align-items: flex-start;
 }
 
-.links {
+.glinks {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
 }
 
-.links a {
+.glinks a {
     color: #880808;
     text-decoration: none;
     position: relative;
@@ -38,7 +38,7 @@
     margin-right: 2rem;
 }
 
-.links a:hover {
+.glinks a:hover {
     background-color: #880808;
     color: black;
 }

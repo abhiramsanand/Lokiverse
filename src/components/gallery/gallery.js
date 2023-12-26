@@ -57,7 +57,7 @@ function Gallery() {
       <div className='gallery'>
         <Link to="/" className="text-dark-1003 absolute top-4 right-4 hover:text-dark-900 p-2 border border-dark-1003 hover:bg-dark-1003 hover:border-transparent transition-all duration-300">Home</Link>
         <h1 className="text-2xl font-bold text-dark-1003 mr-6">Gallery</h1>
-        <div className='links'>
+        <div className='glinks'>
           <a href="#posters">Posters</a>
           <a href="#songs">Songs</a>
         </div>
